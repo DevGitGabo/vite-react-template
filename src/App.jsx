@@ -2,7 +2,7 @@ import { Route, Routes, Navigate , useLocation } from "react-router-dom";
 import Login from "./Login";
 import Inicio from "./Inicio";
 import Register from "./Register";
-import Panel from "./components/components-app/panel";
+import Panel from "./components/components-app/Panel.jsx";
 import { useEffect } from "react";
 
 const App = () => {
