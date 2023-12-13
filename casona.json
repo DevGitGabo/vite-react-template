@@ -1,0 +1,292 @@
+{
+  "generateReport": [
+    {
+      "id": 1
+    }
+  ],
+  "register": [
+    {
+      "username": "asd",
+      "email": "asd@g.com",
+      "password": "asd",
+      "id": 1
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "username": "asda",
+      "password": "asds"
+    },
+    {
+      "username": "asd",
+      "password": "asd",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "username": "asdsa",
+      "email": "asd",
+      "password": "asd",
+      "role": "USER",
+      "id": 1
+    },
+    {
+      "username": "da",
+      "email": "123",
+      "password": "14",
+      "role": "USER",
+      "id": 3
+    }
+  ],
+  "pedidowaiter": [
+    {
+      "nombre": "NombreEjemplo",
+      "apellidos": "ApellidosEjemplo",
+      "telefono": "TelefonoEjemplo",
+      "correo": "CorreoEjemplo",
+      "ruc": "12345",
+      "items": [
+        {
+          "producto": "SIMPLE_DE_POLLO",
+          "cantidad": 2
+        },
+        {
+          "producto": "CHESSE",
+          "cantidad": 3
+        }
+      ],
+      "metodoPago": "TARJETA",
+      "id": 1
+    },
+    {
+      "nombre": "German",
+      "apellidos": "ApellidosEjemplo",
+      "telefono": "TelefonoEjemplo",
+      "correo": "CorreoEjemplo",
+      "ruc": "12345",
+      "items": [
+        {
+          "producto": "CHEESE",
+          "cantidad": 7
+        },
+        {
+          "producto": "SIMPLE_DE_POLLO",
+          "cantidad": 9
+        }
+      ],
+      "metodoPago": "TARJETA",
+      "id": 2
+    }
+  ],
+  "pedidodelivery": [
+    {
+      "idRegistrador": 5,
+      "nombre": "a",
+      "apellidos": "a",
+      "direccion": "a",
+      "correo": "a",
+      "telefono": "a",
+      "ruc": "a",
+      "items": [
+        {
+          "producto": "CHICHA_MORADA",
+          "cantidad": 4
+        },
+        {
+          "producto": "INKA_COLA",
+          "cantidad": 2
+        }
+      ],
+      "metodoPago": "YAPE",
+      "id": 1
+    },
+    {
+      "idRegistrador": 5,
+      "nombre": "a",
+      "apellidos": "a",
+      "direccion": "a",
+      "correo": "a",
+      "telefono": "a",
+      "ruc": "a",
+      "items": [
+        {
+          "producto": "CHICHA_MORADA",
+          "cantidad": 6
+        },
+        {
+          "producto": "INKA_COLA",
+          "cantidad": 2
+        }
+      ],
+      "metodoPago": "PLIN",
+      "id": 2
+    },
+    {
+      "idRegistrador": 5,
+      "nombre": "da",
+      "apellidos": "de",
+      "direccion": "di",
+      "correo": "do",
+      "telefono": "du",
+      "ruc": "123",
+      "items": [
+        {
+          "producto": "JARRA_CHICHA_MORADA",
+          "cantidad": 2
+        },
+        {
+          "producto": "INFUSIONES",
+          "cantidad": 3
+        }
+      ],
+      "metodoPago": "EFECTIVO",
+      "id": 3
+    }
+  ],
+  "chefgetall": [
+    {
+      "id": 1,
+      "items": [
+        {
+          "producto": "CHEESE",
+          "cantidad": 1
+        },
+        {
+          "producto": "INFUSIONES",
+          "cantidad": 1
+        }
+      ],
+      "status": "LISTO",
+      "monto_total": 5
+    },
+    {
+      "id": 2,
+      "items": [
+        {
+          "producto": "CHEESE",
+          "cantidad": 1
+        },
+        {
+          "producto": "INFUSIONES",
+          "cantidad": 1
+        }
+      ],
+      "status": "LISTO",
+      "monto_total": 5
+    }
+  ],
+  "historialReporte": [
+    {
+      "id": 1,
+      "tipoReporte": "GANANCIA",
+      "datosGenerales": {
+        "totalVentas": 1,
+        "totalGanancias": 5,
+        "ventasPorMes": {
+          "2023-12": 1
+        },
+        "gananciasPorMes": {
+          "2023-12": 5
+        },
+        "productoMasVendido": {
+          "nombreProducto": "SIMPLE_DE_POLLO",
+          "cantidadVendida": 1,
+          "gananciaTotal": 5,
+          "precioUnitario": 5,
+          "ventasPorMesProducto": {
+            "12/2023": 1
+          }
+        },
+        "productoMasRentable": {
+          "nombreProducto": "SIMPLE_DE_POLLO",
+          "cantidadVendida": 1,
+          "gananciaTotal": 5,
+          "precioUnitario": 5,
+          "ventasPorMesProducto": {
+            "12/2023": 1
+          }
+        }
+      },
+      "productos": [
+        {
+          "nombreProducto": "SIMPLE_DE_POLLO",
+          "cantidadVendida": 1,
+          "gananciaTotal": 5,
+          "precioUnitario": 5,
+          "ventasPorMesProducto": {
+            "12/2023": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "tipoReporte": null,
+      "datosGenerales": {
+        "totalVentas": 3,
+        "totalGanancias": 5,
+        "ventasPorMes": {
+          "2023-12": 1
+        },
+        "gananciasPorMes": {
+          "2023-12": 5
+        },
+        "productoMasVendido": {
+          "nombreProducto": "SIMPLE_DE_POLLO",
+          "cantidadVendida": 1,
+          "gananciaTotal": 5,
+          "precioUnitario": 5,
+          "ventasPorMesProducto": {
+            "12/2023": 1
+          }
+        },
+        "productoMasRentable": {
+          "nombreProducto": "SIMPLE_DE_POLLO",
+          "cantidadVendida": 1,
+          "gananciaTotal": 5,
+          "precioUnitario": 5,
+          "ventasPorMesProducto": {
+            "12/2023": 1
+          }
+        }
+      },
+      "productos": [
+        {
+          "nombreProducto": "SIMPLE_DE_POLLO",
+          "cantidadVendida": 1,
+          "gananciaTotal": 5,
+          "precioUnitario": 5,
+          "ventasPorMesProducto": {
+            "12/2023": 1,
+            "02/2024": 2,
+            "03/2024": 3
+          }
+        },
+        {
+          "nombreProducto": "CHEESE",
+          "cantidadVendida": 1,
+          "gananciaTotal": 5,
+          "precioUnitario": 5,
+          "ventasPorMesProducto": {
+            "12/2023": 1,
+            "02/2024": 4,
+            "03/2024": 3
+          }
+        },
+        {
+          "nombreProducto": "SIMPLE_DE_CARNE",
+          "cantidadVendida": 1,
+          "gananciaTotal": 5,
+          "precioUnitario": 5,
+          "ventasPorMesProducto": {
+            "12/2023": 3,
+            "02/2024": 3.5,
+            "03/2024": 1
+          }
+        }
+      ]
+    }
+  ]
+}
